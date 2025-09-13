@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C6D804772E751A9800331553 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C6D804762E751A9800331553 /* README.md */; };
+		C6D804792E751AD700331553 /* Poster.png in Resources */ = {isa = PBXBuildFile; fileRef = C6D804782E751AD700331553 /* Poster.png */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C6271CD72E72B4DB007C8E48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		C6271CC92E72B4D9007C8E48 /* OneInOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneInOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6271CD62E72B4DB007C8E48 /* OneInOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneInOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6271CE02E72B4DB007C8E48 /* OneInOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneInOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6D804762E751A9800331553 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C6D804782E751AD700331553 /* Poster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Poster.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +82,8 @@
 		C6271CC02E72B4D9007C8E48 = {
 			isa = PBXGroup;
 			children = (
+				C6D804762E751A9800331553 /* README.md */,
+				C6D804782E751AD700331553 /* Poster.png */,
 				C6271CCB2E72B4D9007C8E48 /* OneInOne */,
 				C6271CD92E72B4DB007C8E48 /* OneInOneTests */,
 				C6271CE32E72B4DB007C8E48 /* OneInOneUITests */,
@@ -212,6 +221,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6D804792E751AD700331553 /* Poster.png in Resources */,
+				C6D804772E751A9800331553 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +406,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F5MTVA5YY6;
@@ -411,8 +423,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jimbook.OneInOne;
+				PRODUCT_BUNDLE_IDENTIFIER = jimbook.SpeeDD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -424,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F5MTVA5YY6;
@@ -440,8 +454,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jimbook.OneInOne;
+				PRODUCT_BUNDLE_IDENTIFIER = jimbook.SpeeDD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
