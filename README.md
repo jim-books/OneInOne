@@ -1,4 +1,4 @@
 # 1️⃣ OneinOne
-_A fan-created Yorushika Catalog & AI‑Powered Interactive Guide_
+_Infuse excitement and meaning into the everyday lives_
 
 ![Demo Screenshot](./Poster.png)
